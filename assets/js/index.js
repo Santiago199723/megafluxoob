@@ -8,9 +8,9 @@ const logadoElement = document.querySelector("#logado");
 const logado = document.querySelector("#logado");
 
 if (userLogado && userLogado.nome) {
-  logado.innerHTML = `<span style="font-family: 'Verdana', sans-serif; color: #4CAF50; font-size: 1.5em;">Olá, ${userLogado.nome}</span>`;
+  logado.innerHTML = `<span style="font-family: 'Verdana', sans-serif; color: #4CAF50; font-size: 0.4em;">Aqui o sucesso é garantido.${userLogado.nome}</span>`;
 } else {
-  logado.innerHTML = `<span style="font-family: 'Verdana', sans-serif; color: #4CAF50; font-size: 1.5em;">Olá, Trader!</span>`;
+  logado.innerHTML = `<span style="font-family: 'Verdana', sans-serif; color: #4CAF50; font-size: 0.4em;">Aqui o sucesso é garantido.</span>`;
 }
 
 
