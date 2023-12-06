@@ -151,7 +151,7 @@ function cadastrar() {
     localStorage.setItem('cadastroRealizado', 'true');
 
     setTimeout(() => {
-      window.location.href = '../html/signin.html';
+      window.location.href = '../html/cadastro.html';
     }, 3000);
   } else {
     msgError.setAttribute('style', 'display: block');
